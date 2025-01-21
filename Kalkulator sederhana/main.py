@@ -25,7 +25,7 @@ def calculator():
         choice = input("Pilih operasi (1/2/3/4/5): ")
 
         if choice == "5":
-            print("Keluar dari kalkulator. Terima kasih!")
+            print("sudah berhasil keluar dari kalkulator!")
             break
 
         if choice in ["1", "2", "3", "4"]:
@@ -42,6 +42,6 @@ def calculator():
                 elif choice == "4":
                     print(f"Hasil: {divide(num1, num2)}")
             except ValueError:
-                print("Error: Masukkan angka yang valid.")
+                print("Error!.")
         else:
-            print("Pilihan tidak valid. Silakan coba lagi.")
+            print("Pilihan tidak valid!.")
